@@ -1,0 +1,273 @@
+  
+    body {
+      font-family: Arial, sans-serif;
+      color: #ddd;
+    }
+    
+    .maindiv {
+      /* width: 100%; */
+      height: 100vh;
+      background: linear-gradient(
+        to top,
+        #0d1b2a 0%,
+        #0d1b2a 50%,
+        #1b263b 50%,
+        #1b263b 100%   
+      );
+    }
+    
+/* Add a black background color to the top navigation */
+.topnav {
+  /* background-color: #333; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -100px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  /* display: flex; */
+  display: inline-block;
+/* float: left; */
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: rgb(171, 166, 166);
+color: black;
+/* border-radius: 25px; */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+/* background-color: #04AA6D; */
+color: white;
+font-weight: bold;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  position: relative;
+    left: 380px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    
+}
+.waqas{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  right: 250px;
+  font-size: 30px;
+}
+.center {
+  /* display: inline-block; */
+  /* color: #e7e7e7; */
+  /* background-color: #04AA6D; */
+  /* width: 10px; */
+  /* height: 8px; */
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  justify-content: center;
+  position: relative;
+  top: 236px;
+  /* align-content: space-around; */
+}
+.center > div {
+  /* float:left ; */
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  background-color: #ddd;
+  /* color: #131212; */
+  /* text-align: center; */
+}
+/* .divs{
+width: 50px;
+height: 40px;
+background-color: aqua;
+} */
+.center > div > a {
+  display: flex;
+  justify-content: center;
+  width: 140px;
+  height: 30px;
+  background-color: rgba(63, 52, 52, 0.454);
+  text-decoration: none;
+  color: #131212;
+
+}
+.services{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 450px;
+}
+.spara{
+  width: 250px;
+  height: 35px;
+  /* background-color: aqua; */
+  position: relative;
+  left: 820px;
+  font-weight: bold;
+
+}
+.showmore{
+  color: coral;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: absolute;
+  left: 828px;
+  
+}
+.links{
+  /* background-color: aqua; */
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 828px;
+}
+.self{
+  font-size: 40px;
+  font-family: 'Unbounded', cursive;
+  position: absolute;
+  bottom: 450px;
+  left: 250px;
+}
+.name{
+  font-size: 50px;
+  font-family: 'Fredoka One', cursive;
+  position: absolute;
+  bottom: 382px;
+  left: 250px;
+}
+.npara{
+  width: 200px;
+  height: 100px;
+  /* background-color: aqua; */
+  position: absolute;
+  left: 250px;
+}
+.circle{
+  background-color: #0d1b2a;
+    opacity: 70%;
+  width: 350px;
+  height: 350px;
+  border-radius: 180px;
+  position: fixed;
+  left: 510px;
+  bottom: 240px;
+}
+.pic{
+  position: absolute;
+  left: 520px;
+  bottom: 250px;
+  
+}
+.needs{
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 250px;
+  top: 440px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+  width: 170px;
+}
+.lorem{
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 250px;
+  top: 515px;
+  width: 150px;
+  font-size: smaller;
+}
+.projects{
+  /* background-color: aqua; */
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.projects > a {
+  position: relative;
+  left: 220px;
+  top: 385px;
+}
+.lastline{
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+  justify-content: space-around;
+  font-size: 11px;
+  position: absolute;
+  left: 250px;
+  bottom: -7px;
+}
+.frontend {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+  word-spacing: 5px;
+  position: relative;
+  right: 220px;
+  top: 230px;
+  
+  
+}.text{
+  text-decoration: none;
+  color: #ddd;
+}
+.appdev{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+  word-spacing: 5px;
+  position: relative;
+  right: 207px;
+  top: 260px;
+}
+.line{
+  /* background-color: aqua; */
+  width: 310px;
+  height: 2px;
+  position: absolute;
+  left: 826px;
+  bottom: 91px;
+}
+.line{
+  background: linear-gradient(
+    to right, 
+    #ff9e2c 0%, 
+    #fe9b2a 50%, 
+    #9e6019 50%, 
+    #9c5e18 100%
+  )
+}
+
+
+
+
+
+
+

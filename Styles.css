@@ -2,11 +2,6 @@
     body {
       font-family: Arial, sans-serif;
       color: #ddd;
-    }
-    
-    .maindiv {
-      /* width: 100%; */
-      height: 100vh;
       background: linear-gradient(
         to top,
         #0d1b2a 0%,
@@ -16,119 +11,96 @@
       );
     }
     
-/* Add a black background color to the top navigation */
+    .maindiv {
+      /* width: 100%; */
+      height: 100vh;
+      
+    }
+    
 .topnav {
-  /* background-color: #333; */
-  overflow: hidden;
   display: flex;
+  overflow: hidden;
   justify-content: center;
-  position: relative;
-  left: -100px;
-}
+  }
 
-/* Style the links inside the navigation bar */
 .topnav a {
-  /* display: flex; */
   display: inline-block;
-/* float: left; */
 color: #f2f2f2;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
-font-size: 17px;
+font-size: 18px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
 background-color: rgb(171, 166, 166);
-color: black;
-/* border-radius: 25px; */
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
 /* background-color: #04AA6D; */
 color: white;
 font-weight: bold;
 }
 
-/* Right-aligned section inside the top navigation */
 .topnav-right {
-  position: relative;
-    left: 380px;
+  position: absolute;
+        width: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
-    
+    justify-content:right; 
 }
 .waqas{
+  /* background-color: aqua; */
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  position: relative;
-  right: 250px;
-  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  width: 100%;
 }
 .center {
-  /* display: inline-block; */
-  /* color: #e7e7e7; */
-  /* background-color: #04AA6D; */
-  /* width: 10px; */
-  /* height: 8px; */
-  display: flex;
-  /* flex-direction: row; */
-  /* align-items: center; */
+    /* background-color: #04AA6D; */
+    display: flex;
   justify-content: center;
   position: relative;
-  top: 236px;
-  /* align-content: space-around; */
+  bottom: -335px;
 }
 .center > div {
-  /* float:left ; */
   display: flex;
   justify-content:space-around;
   align-items: center;
   width: 250px;
   height: 60px;
-  background-color: #ddd;
-  /* color: #131212; */
-  /* text-align: center; */
+  background-color: #f0ead2;
 }
-/* .divs{
-width: 50px;
-height: 40px;
-background-color: aqua;
-} */
 .center > div > a {
   display: flex;
   justify-content: center;
   width: 140px;
   height: 30px;
-  background-color: rgba(63, 52, 52, 0.454);
+  background-color: #738290;
   text-decoration: none;
   color: #131212;
 
 }
-.services{
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  right: 450px;
+.rightpara{
+  /* background-color: aqua; */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  position: absolute;
+    right: 278px;
+
 }
 .spara{
+  /* background-color: aqua; */
   width: 250px;
   height: 35px;
-  /* background-color: aqua; */
-  position: relative;
-  left: 820px;
-  font-weight: bold;
+    font-weight: bold;
 
 }
 .showmore{
   color: coral;
   display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  position: absolute;
-  left: 828px;
+    align-items: center;
   
 }
 .links{
@@ -136,8 +108,7 @@ background-color: aqua;
   width: 150px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  left: 828px;
+  
 }
 .self{
   font-size: 40px;
@@ -147,6 +118,7 @@ background-color: aqua;
   left: 250px;
 }
 .name{
+  /* background-color: aqua; */
   font-size: 50px;
   font-family: 'Fredoka One', cursive;
   position: absolute;
@@ -162,25 +134,23 @@ background-color: aqua;
 }
 .circle{
   background-color: #0d1b2a;
-    opacity: 70%;
+  opacity: 70%;
   width: 350px;
   height: 350px;
   border-radius: 180px;
-  position: fixed;
-  left: 510px;
-  bottom: 240px;
+  position: absolute;
+  right: 500px;
+  top: 50px;  
 }
 .pic{
   position: absolute;
-  left: 520px;
-  bottom: 250px;
+  right: 520px;
+  top: 70px; 
   
 }
 .needs{
   /* background-color: aqua; */
-  display: flex;
-  align-items: center;
-  position: absolute;
+    position: absolute;
   left: 250px;
   top: 440px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -189,34 +159,24 @@ background-color: aqua;
 }
 .lorem{
   /* background-color: aqua; */
-  display: flex;
-  align-items: center;
-  position: absolute;
+    position: absolute;
   left: 250px;
   top: 515px;
   width: 150px;
   font-size: smaller;
 }
-.projects{
-  /* background-color: aqua; */
-  width: 200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.projects > a {
+.projects > div > a {
   position: relative;
-  left: 220px;
-  top: 385px;
+  left: 240px;
+  bottom: -400px;
 }
 .lastline{
   display: flex;
-  flex-direction: row;
   width: 220px;
   justify-content: space-around;
   font-size: 11px;
   position: absolute;
-  left: 250px;
+  left: 240px;
   bottom: -7px;
 }
 .frontend {
@@ -227,9 +187,9 @@ background-color: aqua;
   font-size: 20px;
   font-weight: bold;
   word-spacing: 5px;
-  position: relative;
+  position: absolute;
   right: 220px;
-  top: 230px;
+  bottom: 115px;
   
   
 }.text{
@@ -244,18 +204,26 @@ background-color: aqua;
   font-weight: bold;
   word-spacing: 5px;
   position: relative;
-  right: 207px;
-  top: 260px;
+  right: 197px;
+  /* top: 260px; */
+  bottom: -330px;
 }
-.line{
-  /* background-color: aqua; */
-  width: 310px;
-  height: 2px;
+/* .line1{
+  background-color: aqua;
+  width: 1150px;
+  display: flex;
+  justify-content:right;
   position: absolute;
-  left: 826px;
-  bottom: 91px;
-}
-.line{
+  bottom: 102px; */
+  /* .line{ */
+  /* background-color: aqua; */
+  /* width: 310px;
+  height: 2px; */
+  /* position: relative; */
+  /* left: 826px; */
+  
+  /* right: -830px; */
+/* .line{
   background: linear-gradient(
     to right, 
     #ff9e2c 0%, 
@@ -263,7 +231,15 @@ background-color: aqua;
     #9e6019 50%, 
     #9c5e18 100%
   )
-}
+} */
+
+
+
+
+
+
+
+
 
 
 

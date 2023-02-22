@@ -6,14 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Unbounded:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg mbar">
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand" style="color: rgb(255, 255, 255) !important;" href="#">
           <img src="/Img/smile.png" alt="Logo" width="26" height="26" class="d-inline-block align-text-top">
           Waqas
@@ -56,9 +64,9 @@
       </div>
     </nav>
     <div class="container  circle">
-      <img src="/Img/Waqas.png" alt="My Self" width="270px">
+      <img src="/Img/Waqas.png" alt="My Self" width="270px" style="z-index: auto;">
     </div>
-    <div class="container-fluid mcenter">
+    <div class="container mcenter">
       <div class="center">
         <div><a href="Meta"><img src="./Img/Meta.png" alt="Meta"> </a></div>
         <div><a href="Google"><img src="./Img/Google.png" alt="Google"></a></div>
@@ -68,9 +76,17 @@
     </div>
     <div class="container">
       <div class="leftpara">
-        <p>I'm</p>
-        <p></p>
-        <p></p>
+        <div>
+          <p class="self">I'm</p>
+        </div>
+        <div>
+          <p class="name">Muhammad Waqas</p>
+        </div>
+        <div class="line"></div>
+        <div>
+          <p class="npara">A freelancer who provides services for digital programming and design content needs.
+            for all busenesses with more than 10 yeras of experience</p>
+        </div>
       </div>
     </div>
   </div>

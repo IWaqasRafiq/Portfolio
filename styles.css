@@ -31,7 +31,7 @@ body{
 .center {
     /* background-color: #04AA6D; */
     display: flex;
-  justify-content: center;
+    justify-content: center;
     /* position: relative;
   bottom: -335px; */
 }
@@ -55,3 +55,68 @@ body{
 .mcenter{
     margin-top: -60px !important;
 }
+.leftpara{
+    color: white !important;
+    line-height: 220%;
+    position: absolute;
+    left: 15%;
+    bottom: 56%;
+    /* margin-left: 90px; */
+    /* margin-top: -300px; */
+    
+}
+.self{
+    
+    font-family: 'Unbounded', cursive;
+    /* position: absolute;
+    bottom: 450px;
+    left: 250px; */
+  }
+  .name{
+    /* background-color: aqua; */
+    
+    font-family: 'Fredoka One', cursive;
+    /* position: absolute;
+    bottom: 382px;
+    left: 250px; */
+  }
+  .line{
+    width: 200px;
+    height: 04px;
+    background-color: burlywood;
+  }
+  .npara{
+    width: 235px;
+    height: 80px;
+    line-height: normal !important;
+    margin-top: 05px;
+    /* background-color: aqua; */
+    /* position: absolute;
+    left: 250px; */
+  }
+  @media screen and (max-width: 576px) {
+    /* Increase the font size of the name and paragraph on extra-large screens */
+    .name {
+      font-size: 25px;
+    }
+    .self{
+      font-size: 15px;
+    }
+  
+    .npara {
+      font-size: 10px;
+    }
+  }
+@media screen and (min-width: 1000px) {
+  .name{
+    font-size: 43px;
+  }
+  .self{
+    font-size: 40px;
+  }
+}  
+  
+  
+  
+  
+  

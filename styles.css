@@ -12,8 +12,8 @@ body{
 .mbar{
     /* background-color: aqua; */
     /* color: antiquewhite !important; */
-    margin-left: 105px;
-    margin-right: 95px;
+    margin-left: 75px;
+    margin-right: 65px;
 }
 .navp{
     margin-left: 120px;
@@ -24,9 +24,21 @@ body{
 }
 .circle{
     background-color: #0d1b2a;
-    width: 400px !important;
-    height: 400px !important;
-    border-radius: 2000px;
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 150px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    z-index: -1;
+    position:relative;
+}
+.pic{
+  display: flex;
+  position: absolute;
+  /* bottom: 400px;
+  right: ; */
+  margin-top: -290px;
+  justify-content: center;
 }
 .center {
     /* background-color: #04AA6D; */
@@ -39,7 +51,7 @@ body{
   display: flex;
   justify-content:space-around;
   align-items: center;
-  width: 230px;
+  width: 220px;
   height: 70px;
   background-color: #232d40;
 }
@@ -56,12 +68,13 @@ body{
     /* margin-top: -60px !important; */
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .leftpara{
     color: white !important;
     line-height: 220%;
     position: absolute;
-    left: 15%;
+    left: 10%;
     bottom: 56%;
     /* margin-left: 90px; */
     /* margin-top: -300px; */
@@ -78,6 +91,10 @@ body{
     /* background-color: aqua; */
     
     font-family: 'Fredoka One', cursive;
+    table-layout: fixed;
+    border-collapse: collapse;
+    z-index: -1;
+    position:relative;
     /* position: absolute;
     bottom: 382px;
     left: 250px; */
@@ -96,7 +113,7 @@ body{
     /* position: absolute;
     left: 250px; */
   }
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 576px) and (max-height: 576px) {
     /* Increase the font size of the name and paragraph on extra-large screens */
     .name {
       font-size: 25px;
@@ -109,7 +126,7 @@ body{
       font-size: 10px;
     }
   }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px)  {
   .name{
     font-size: 43px;
   }
@@ -129,8 +146,9 @@ body{
     /* width: auto; */
     display: flex;
     flex-direction: column;
-    /* position: absolute;
-    right: 278px; */
+    position: relative;
+    left: 100px;
+    
 
 }
 .spara{
@@ -153,6 +171,7 @@ body{
   justify-content: space-between;
   
 }  
+
   
   
   

@@ -24,9 +24,9 @@ body{
 }
 .circle{
     background-color: #0d1b2a;
-    width: 300px !important;
-    height: 300px !important;
-    border-radius: 150px;
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 2000px;
 }
 .center {
     /* background-color: #04AA6D; */

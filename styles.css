@@ -22,23 +22,34 @@ body{
     display: flex;
     justify-content: end;
 }
+.div01{
+  /* background-color: aqua; */
+  width: fit-content !important;
+  justify-content: center !important;
+  /* height: fit-content; */
+  display: flex;
+  /* display: grid; */
+  
+  
+}
 .circle{
     background-color: #0d1b2a;
     width: 300px !important;
     height: 300px !important;
     border-radius: 150px;
-    table-layout: fixed;
+    /* justify-content: center !important; */
+    /* table-layout: fixed; */
     border-collapse: collapse;
     z-index: -1;
     position:relative;
 }
 .pic{
-  display: flex;
-  position: absolute;
+  /* display: flex;
+  position: absolute; */
   /* bottom: 400px;
   right: ; */
-  margin-top: -290px;
-  justify-content: center;
+  /* margin-top: -290px;
+  justify-content: center; */
 }
 .center {
     /* background-color: #04AA6D; */
@@ -66,16 +77,33 @@ body{
 }
 .mcenter{
     /* margin-top: -60px !important; */
-    display: flex;
-    justify-content: center;
-    position: relative;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-items: center;
+    /* position: relative; */
 }
 .leftpara{
+    /* background-color: black; */
     color: white !important;
     line-height: 220%;
-    position: absolute;
+    /* display: flex; */
+    flex-direction:column;
+    width: 400px;
+    /* margin-top: 50px; */
+    display: inline-block;
+    margin-top: 10%;
+    position: relative;
+    left: 13%;
+     /* table-layout: fixed;
+    border-collapse: collapse;
+    z-index: -1;
+    position:relative; */
+    
+    
+
+    /* position: absolute;
     left: 10%;
-    bottom: 56%;
+    bottom: 56%; */
     /* margin-left: 90px; */
     /* margin-top: -300px; */
     
@@ -91,10 +119,10 @@ body{
     /* background-color: aqua; */
     
     font-family: 'Fredoka One', cursive;
-    table-layout: fixed;
+    /* table-layout: fixed;
     border-collapse: collapse;
     z-index: -1;
-    position:relative;
+    position:relative; */
     /* position: absolute;
     bottom: 382px;
     left: 250px; */
@@ -135,19 +163,26 @@ body{
   }
 }  
 .mp{
-  display: flex;
+  /* display: flex;
   justify-content: end;
   position: absolute;
   bottom: 60%;
-  right: 22%;
+  right: 22%; */
+  
+  
 }
 .rightpara{
   /* background-color: aqua; */
     /* width: auto; */
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    margin-top: 12%;
     position: relative;
-    left: 100px;
+    right: 15%;
+    /* margin-right: 150px; */
+    flex-direction: column;
+    /* justify-items: end !important; */
+    /* position: relative;
+    left: 100px; */
     
 
 }

@@ -58,15 +58,15 @@ body{
   display: flex;
   justify-content:space-around;
   align-items: center;
-  width: 22%;
+  width: 220px;
   height: 70px;
   background-color: #232d40;
 }
 .center > div > a {
   display: flex;
   justify-content: center;
-  width: 57%;
-  height: 60%;
+  width:120px;
+  height: 35px;
   background-color: #0d1b2a;
   text-decoration: none;
   color: #131212;
@@ -149,7 +149,8 @@ body{
 
 }
 .showmore{
-  color: coral;
+  color: rgb(231, 167, 85);
+  font-weight: bold;
   display: flex;
     align-items: center;
   
@@ -162,6 +163,8 @@ body{
 }  
 .div02{
   color: white !important;
+  display: flex;
+  flex-direction: row;
 }
 .projects{
     width: 100%;
@@ -172,9 +175,30 @@ body{
     margin-top: 1%;
 }
 .needs{
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: bolder;
 }
+.lorem{
+  font-size: 0.9em;
+}
+.lastline{
+  font-size: 0.8em;
+}
+.prolist{
+  text-decoration: none;
+  color: rgb(231, 167, 85);
+  font-size: 1em;
+  font-weight: bold;
+}
+.righpics{
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  right: -36%;
+  margin-top: 2%;
+
+}
+
 
 
   

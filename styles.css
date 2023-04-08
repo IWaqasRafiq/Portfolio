@@ -1,4 +1,4 @@
-body{
+/* body{
       background: linear-gradient(
         to top,
         #0d1b2a 0%,
@@ -9,7 +9,15 @@ body{
       height: 100vh;
       margin: 0;
       padding: 0;
+} */
+body {
+  background-color: #f5f5f5; /* set the fixed background color */
+  background-image: linear-gradient(to bottom, #0d1b2a 50%, #1b263b 50%); /* create a gradient for the two colors */
+  background-repeat: no-repeat; /* prevent the background from repeating */
+  background-attachment: fixed; /* fix the background position */
+  height: 100vh; /* set the height of the content area to fill the viewport */
 }
+
 .mbar{
 
     margin-left: 13%;
@@ -22,13 +30,6 @@ body{
     display: flex;
     justify-content: end;
 }
-@media (max-width: 992px)
- { 
-  .navr{
-    display: flex;
-    justify-content:start;
-  }
-}
 .div01{
   width: 100%;
   left: 6%;
@@ -40,7 +41,7 @@ body{
   
 }
 .circle{
-  background-color: #0d1b2a;
+  background-color: #1b263b;
   width: 60vw;
   height: 60vw;
   max-width: 300px;
@@ -113,25 +114,11 @@ body{
     margin-top: 2%;
     font-size: 0.9em;
   }
-  @media screen and (max-width: 576px) and (max-height: 576px) {
-    .name {
-      font-size: 1.5em;
-    }
-    .self{
-      font-size: 1em;
-    }
-    .npara {
-      font-size: 0.8em;
-    }
+  .name{
+    font-size: 2.7em;
   }
-  
-  @media screen and (min-width: 1000px)  {
-    .name{
-      font-size: 2.7em;
-    }
-    .self{
-      font-size: 2.5em;
-    }
+  .self{
+    font-size: 2.5em;
   }
 
 .rightpara{
@@ -221,6 +208,76 @@ body{
   height: 0.1em;
   background-color: burlywood;
 }
+
+
+@media screen and (max-width: 425px) {
+  body{
+    overflow-y: scroll;  /* enable vertical scrolling for the content area */
+    background-attachment: inherit; /* fix the background position */
+    height: 100%; /* set the height of the content area to fill the viewport */
+  }
+  .mbar{
+
+    margin-left: 0;
+    margin-right: 0;
+}
+.navr{
+  display: flex;
+  justify-content:start;
+  
+}
+.navr{
+  display: none;
+}
+.div01{
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  position: relative;
+  }
+  .container2 {
+    order: 3;
+  }
+  .container3 {
+    order: 2;
+  }
+.circle{
+  background-color: #0d1b2a;
+  width: 60vw;
+  height: 60vw;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  /* border-collapse: collapse; */
+  /* z-index: -1; */
+}
+.leftpara{
+  /* background-color: aqua; */
+    color: white !important;
+    line-height: 130%;
+    flex-direction:column;
+    position: relative;
+     }
+.name {
+  font-size: 2em;
+}
+.self{
+  font-size: 1.8em;
+}
+.npara {
+  font-size: 0.9em;
+}
+@media screen and (max-width: 375px){
+  .name {
+    font-size: 1.8em;
+  }
+  .self{
+    font-size: 1.5em;
+  }
+}
+}
+
+
 
 
 

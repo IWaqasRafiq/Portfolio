@@ -217,7 +217,7 @@ body {
     height: 100%; /* set the height of the content area to fill the viewport */
   }
   .mbar{
-
+    /* background-color: #131212; */
     margin-left: 0;
     margin-right: 0;
 }
@@ -241,22 +241,13 @@ body {
   .container3 {
     order: 2;
   }
-.circle{
-  background-color: #0d1b2a;
-  width: 60vw;
-  height: 60vw;
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 50%;
-  /* border-collapse: collapse; */
-  /* z-index: -1; */
-}
 .leftpara{
   /* background-color: aqua; */
     color: white !important;
     line-height: 130%;
     flex-direction:column;
     position: relative;
+    left: 0;
      }
 .name {
   font-size: 2em;
@@ -267,6 +258,39 @@ body {
 .npara {
   font-size: 0.9em;
 }
+.rightpara{
+    /* background-color: aqua; */
+    margin-top: 0px;
+    width: 288px;
+    margin-bottom: 15px;
+}
+.services{
+  font-weight: bolder;
+  font-size: larger;
+}
+.spara{
+  width: 300px;
+  height: 30px;
+  font-size: 1em;
+}
+.links{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.circle{
+  background-color: #162534;
+  width: 60vw;
+  height: 60vw;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  /* border-collapse: collapse; */
+  /* z-index: -1; */
+}
+.pic{
+  width: 60vw;
+}
 @media screen and (max-width: 375px){
   .name {
     font-size: 1.8em;
@@ -274,9 +298,17 @@ body {
   .self{
     font-size: 1.5em;
   }
+  .rightpara{
+      margin-top: 0px;
+      width: 250px;
+}
+@media screen and (max-width: 320px){
+  .rightpara{
+      width: 210px;
 }
 }
-
+}
+}
 
 
 

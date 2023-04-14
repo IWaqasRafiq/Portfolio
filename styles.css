@@ -401,18 +401,27 @@ body {
   .prolist {
     text-decoration: none;
     color: rgb(231, 167, 85);
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: bold;
   }
   .righpics {
     /* background-color: aqua; */
     width: 100%;
-    max-width: 400px;
+    max-width: 90vw;
     position: relative;
-    right: 0%;
+    right: -2%;
     margin-top: 8%;
+    margin-bottom: 8%;
   
   }
+  .arrow{
+    margin-left: 10% !important;
+  }
+.lin {
+  width: 75vw;
+  height: 0.1em;
+  background-color: burlywood;
+}
 
   @media screen and (max-width: 375px) {
     .name {
@@ -454,6 +463,12 @@ body {
         width: 150px;
         display: flex;
         justify-content: space-between;
+      }
+      .arrow{
+        margin-left: 6% !important;
+      }
+      .text{
+        font-size: 0.9em;
       }
     }
   }

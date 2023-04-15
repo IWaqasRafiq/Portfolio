@@ -253,7 +253,13 @@ body {
     height: 100%;
     /* set the height of the content area to fill the viewport */
   }
-
+  .emoji{
+    width: 18px;
+    height: 18px;
+  }
+  .waqas{
+    font-size: 15px !important;
+  }
   .mbar {
     /* background-color: #131212; */
     margin-left: 0;
@@ -401,7 +407,7 @@ body {
   .prolist {
     text-decoration: none;
     color: rgb(231, 167, 85);
-    font-size: 0.9em;
+    /* font-size: 0.9em; */
     font-weight: bold;
   }
   .righpics {
